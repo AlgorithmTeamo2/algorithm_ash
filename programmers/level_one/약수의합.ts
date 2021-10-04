@@ -30,6 +30,10 @@ function solution1(n: number) {
 }
 
 // 두번째 풀이
+/*
+다른사람 풀이인데 나랑 비슷했다.
+*/
+
 function solution2(num) {
   let sum = 0;
   for (let i = 1; i <= num; i++) {
