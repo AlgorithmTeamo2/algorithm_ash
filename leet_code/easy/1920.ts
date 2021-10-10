@@ -12,10 +12,7 @@ ans = [nums[nums[0]], nums[nums[1]], nums[nums[2]], nums[nums[3]], nums[nums[4]]
 const nums = [0, 2, 1, 5, 3, 4];
 
 function buildArray(nums: number[]) {
-  const numList = nums.map((e) => {
-    return nums[e];
-  });
-  return numList;
+  return nums.map((e) => nums[e]);
 }
 
 console.log(buildArray(nums));

@@ -10,6 +10,7 @@ X++: X is incremented by 1, X =  0 + 1 =  1.
 // const operations = ["--X", "X++", "X++"];
 const operations = ["++X", "++X", "X++"];
 function finalValueAfterOperations(operations: string[]): number {
+  // reduce 를써서 해보자
   let result: number = 0;
   operations.map((operation) => {
     return operation === "--X" || operation === "X--" ? --result : ++result;
